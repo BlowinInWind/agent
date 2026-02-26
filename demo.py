@@ -1,7 +1,7 @@
 from langgraph.checkpoint.memory import MemorySaver
 from langchain.agents import create_agent
-from main import llm
-from tool import tools
+from config.llm import llm
+from tools.tool import tools
 
 # 创建内存检查点（保存对话历史）
 memory = MemorySaver()
