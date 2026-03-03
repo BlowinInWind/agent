@@ -20,3 +20,5 @@ dashscope
 tavily-python
 ddgs
 langgraph-supervisor
+rank_bm25
+deepagents
