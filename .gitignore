@@ -53,11 +53,6 @@ logs/
 .pytest_cache/
 .ruff_cache/
 
-# Database
-*.db
-*.sqlite
-*.sqlite3
-
 # Temporary files
 *.tmp
 *.temp
