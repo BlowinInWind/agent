@@ -1,0 +1,9 @@
+sql
+"CREATE TABLE employees (
+    emp_no INTEGER PRIMARY KEY,
+    birth_date TEXT NOT NULL,
+    first_name TEXT NOT NULL,
+    last_name TEXT NOT NULL,
+    gender TEXT NOT NULL,
+    hire_date TEXT NOT NULL
+)"
