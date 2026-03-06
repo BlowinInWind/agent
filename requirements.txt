@@ -22,3 +22,4 @@ ddgs
 langgraph-supervisor
 rank_bm25
 deepagents
+vanna[openai,fastapi]

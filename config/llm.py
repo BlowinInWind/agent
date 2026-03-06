@@ -8,6 +8,13 @@ llm = ChatOpenAI(
     temperature=0.7,
 )
 
+llm_02 = ChatOpenAI(
+    model="ppio/pa/claude-sonnet-4-6",           # 替换为你的模型名称，如 "qwen2.5", "deepseek-chat" 等
+    api_key="sk-vH7IxF0dcLUAy0HunorBGVpcLT7hY5esJQX2MQWYuiJbno66",     # 替换为你的 API Key，无需验证可填 "EMPTY"
+    base_url="http://model.mify.ai.srv/v1/",  # 替换为你的服务地址
+    temperature=0.7,
+)
+
 llm_anthropic = ChatAnthropic(
     model="ppio/pa/claude-sonnet-4-6",           # 替换为你的模型名称，如 "qwen2.5", "deepseek-chat" 等
     openai_api_key="sk-vH7IxF0dcLUAy0HunorBGVpcLT7hY5esJQX2MQWYuiJbno66",     # 替换为你的 API Key，无需验证可填 "EMPTY"
