@@ -29,3 +29,4 @@ langchain-daytona
 letta
 letta-client
 asyncpg
+langchain-modal
